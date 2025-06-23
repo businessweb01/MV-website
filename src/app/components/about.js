@@ -265,7 +265,7 @@ const MultiNetAbout = () => {
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Founded with a vision to bridge the digital gap in Nueva Ecija, we've built a robust fiber infrastructure that ensures speeds of up to 750 Mbps, 99.9% uptime, and unmatched service quality — all without breaking the bank. We believe that fast internet is no longer a luxury — it's a necessity.
+              Founded with a vision to bridge the digital gap in Nueva Ecija, {"we've"} built a robust fiber infrastructure that ensures speeds of up to 750 Mbps, 99.9% uptime, and unmatched service quality — all without breaking the bank. We believe that fast internet is no longer a luxury — it's a necessity.
             </motion.p>
           </motion.div>
         </section>
