@@ -20,7 +20,7 @@ export default function LandingPage() {
         <Plans style={{ backgroundColor: 'transparent' }} />
       </section>
 
-      <section className="py-30">
+      <section>
         <About style={{ backgroundColor: 'transparent' }} />
       </section>
 

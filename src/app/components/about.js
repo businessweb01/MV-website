@@ -174,7 +174,7 @@ const MultiNetAbout = () => {
   ], []);
 
   return (
-    <main className="relative py-20 px-5">
+    <main className="relative px-5 py-40 lg:py-0 mb-15">
       <div className="max-w-6xl mx-auto">
         {/* Hero Section */}
         <motion.header 

@@ -6,7 +6,7 @@ import { Wifi, Zap, Shield, Clock, ChevronDown, Tv, Users, Star } from 'lucide-r
 // Optimized Brand Configuration (moved to top level to avoid recreation)
 const BRAND_CONFIG = {
   identity: {
-    name: 'MultiNet',
+    name: 'Multinet',
     tagline: 'VELOCITY',
     subtitle: 'INTERNET',
     description: 'Cabanatuan’s Fastest Fiber Internet — FREE Installation & 90+ TV Channels Included'

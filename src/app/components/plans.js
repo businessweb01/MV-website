@@ -6,11 +6,11 @@ import { useRef } from 'react';
 
 export default function Plans() {
   const wifiPlans = [
-    { speed: '35 MBPS', price: 'PHP 800', model: 'V - FIBER 1' },
-    { speed: '125 MBPS', price: 'PHP 1100', model: 'V - FIBER 2' },
-    { speed: '250 MBPS', price: 'PHP 1500', model: 'V - FIBER 3' },
-    { speed: '500 MBPS', price: 'PHP 1900', model: 'V - FIBER 4' },
-    { speed: '750 MBPS', price: 'PHP 2500', model: 'V - FIBER 5' },
+    { speed: '35 Mbps', price: 'PHP 800', model: 'V - FIBER 1' },
+    { speed: '125 Mbps', price: 'PHP 1100', model: 'V - FIBER 2' },
+    { speed: '250 Mbps', price: 'PHP 1500', model: 'V - FIBER 3' },
+    { speed: '500 Mbps', price: 'PHP 1900', model: 'V - FIBER 4' },
+    { speed: '750 Mbps', price: 'PHP 2500', model: 'V - FIBER 5' },
   ];
 
   const sectionRef = useRef(null);
@@ -143,36 +143,36 @@ export default function Plans() {
                 y: -10,
                 transition: { duration: 0.3 }
               }}
-              className="group relative"
+              className="group relative h-full"
             >
               {/* Card Background with Hover Effect */}
               <div className="absolute inset-0 rounded-2xl opacity-0 blur-xl"></div>
               
-              <div className="relative to-black border border-white-400/30 rounded-2xl p-8 text-center hover:border-yellow-400/60 transition-all duration-300 backdrop-blur-sm">
+              <div className="relative h-full flex flex-col justify-between to-black border border-white-400/30 rounded-2xl p-8 text-center hover:border-yellow-400/60 transition-all duration-300 backdrop-blur-sm min-h-[280px] sm:min-h-[320px]">
                 {/* Speed Badge */}
                 <motion.div 
-                  className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black px-4 py-2 rounded-full text-sm font-bold mb-6 inline-block"
+                  className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black px-6 py-2 rounded-full text-lg font-bold mb-6 inline-block w-40 mx-auto"
                   whileHover={{ scale: 1.1 }}
                 >
-                  {plan.speed}
+                  <div className='flex flex-col justify-center'>
+                    <p className="text-xs text-black -mb-1 text-left">UP TO</p>
+                    <div className="text-xl font-extrabold text-left">{plan.speed}</div>
+                  </div>
                 </motion.div>
 
                 {/* Price Section */}
-                <div className="mb-6">
+                <div className="mb-6 flex-grow flex flex-col justify-center">
                   <motion.div 
-                    className="text-2xl font-black text-white mb-2"
+                    className="text-2xl font-black text-white mb-2 break-words"
                     whileHover={{ scale: 1.1 }}
                   >
                     PER MONTH {plan.price}
                   </motion.div>
-                  {/* <div className="text-yellow-400 text-sm font-semibold tracking-wider">
-                    PER MONTH
-                  </div> */}
                 </div>
 
                 {/* Model */}
                 <motion.div 
-                  className="text-white/80 font-bold text-lg tracking-wide"
+                  className="text-white/80 font-bold text-lg tracking-wide break-words"
                   whileHover={{ color: "#fbbf24" }}
                 >
                   {plan.model}

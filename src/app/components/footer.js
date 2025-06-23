@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { Phone, MapPin, Facebook } from 'lucide-react';
+import { Phone, MapPin, Facebook, Wifi } from 'lucide-react';
 
 export default function Footer() {
   const contactNumbers = [
@@ -193,17 +193,23 @@ export default function Footer() {
           <div className="text-center">
             <motion.h2
               whileHover={{ scale: 1.02 }}
-              className="text-3xl md:text-4xl font-black mb-4"
+              className="text-3xl md:text-4xl font-black mb-4 flex items-center justify-center gap-2"
             >
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
                 MULTINET
-              </span>{' '}
-              <span className="text-white">
-                VELOCITY
+              </span>
+              <span className="text-white inline-flex items-center">
+                VEL
+                <div className="relative mx-1">
+                  <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
+                    <Wifi className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+                CITY
               </span>
             </motion.h2>
             <p className="text-white/60 text-sm">
-              © 2024 Multinetwork CATV. All rights reserved.
+              © 2025 Multinetwork CATV. All rights reserved.
             </p>
           </div>
         </motion.div>
