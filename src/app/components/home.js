@@ -250,12 +250,12 @@ function ServicesSection() {
          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
             Why Choose{' '}
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              MultiNet
+              Multinet
             </span>
              {' '}Fiber Internet ?
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            Discover why Cabanatuan residents are switching to MultiNet — the fastest and most affordable fiber internet with FREE installation and 90+ premium TV channels.
+            Discover why Cabanatuan residents are switching to Multinet — the fastest and most affordable fiber internet with FREE installation and 90+ premium TV channels.
           </p>
         </motion.header>
 
@@ -332,7 +332,7 @@ function CallToActionSection() {
       </h2>
 
       <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-        Discover why more families and businesses in Cabanatuan City are choosing MultiNet — offering the fastest fiber internet speeds, FREE installation, and 90+ premium TV channels in every plan. Say goodbye to slow, expensive connections and experience seamless streaming, gaming, and browsing.
+        Discover why more families and businesses in Cabanatuan City are choosing Multinet — offering the fastest fiber internet speeds, FREE installation, and 90+ premium TV channels in every plan. Say goodbye to slow, expensive connections and experience seamless streaming, gaming, and browsing.
       </p>
 
       </motion.div>

@@ -190,7 +190,7 @@ const MultiNetAbout = () => {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
               <span className="text-gray-100">About </span>
               <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent drop-shadow-2xl">
-                MultiNet Velocity
+                Multinet Velocity
               </span>
             </h1>
           </motion.div>
@@ -215,7 +215,7 @@ const MultiNetAbout = () => {
           aria-labelledby="stats-heading"
         >
           <h2 id="stats-heading" className="sr-only">
-            MultiNet Velocity Performance Statistics
+            Multinet Velocity Performance Statistics
           </h2>
           <motion.div 
             className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8"
@@ -265,7 +265,7 @@ const MultiNetAbout = () => {
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Founded with a vision to bridge the digital gap in Nueva Ecija, {"we've"} built a robust fiber infrastructure that ensures speeds of up to 750 Mbps, 99.9% uptime, and unmatched service quality — all without breaking the bank. We believe that fast internet is no longer a luxury — {"it's"} a necessity.
+             Our mission is to provide top-quality fiber optic internet service paired with free cable TV. We ensure a fast, stable, and uninterrupted connection for both home and business users. With diverse entertainment options and crystal-clear cable signal, we bring the ultimate digital experience right to your doorstep. Choose us for blazing-fast internet, exceptional customer service, and unbeatable value.
             </motion.p>
           </motion.div>
         </section>
@@ -282,7 +282,7 @@ const MultiNetAbout = () => {
             viewport={{ once: true, margin: '-50px' }}
           >
             <h2 id="features-heading" className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">
-              Why Choose MultiNet Velocity?
+              Why Choose Multinet Velocity?
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
               {featuresData.map((feature, index) => (
@@ -346,7 +346,7 @@ const MultiNetAbout = () => {
               Ready to Experience the Difference?
             </h3>
             <p className="text-lg md:text-xl mb-6 text-purple-100 max-w-2xl mx-auto leading-relaxed">
-              Join the thousands who have made the switch to MultiNet Velocity and experience the difference of a truly connected life.
+              Join the thousands who have made the switch to Multinet Velocity and experience the difference of a truly connected life.
             </p>
             <motion.button
               className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-purple-300 transition-all duration-200 hover:bg-gray-50"
