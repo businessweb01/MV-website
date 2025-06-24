@@ -282,7 +282,7 @@ const MultiNetAbout = () => {
             viewport={{ once: true, margin: '-50px' }}
           >
             <h2 id="features-heading" className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">
-              Why Choose Multinet Velocity?
+              Why Choose <span className='bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent drop-shadow-2xl'>Multinet</span> Velocity?
             </h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
               {featuresData.map((feature, index) => (
